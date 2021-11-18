@@ -9,8 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e8d86db427a5af418ecd799b4034b7d, type: 3}
-  m_Name: E1_ChargeData
+  m_Script: {fileID: 11500000, guid: df967c638994a2e4abe613b678828212, type: 3}
+  m_Name: E1_StunStateData
   m_EditorClassIdentifier: 
-  chargeSpeed: 6
-  chargeTime: 0.85
+  stunTime: 3
+  stunKnockbackTime: 0.2
+  stunKnockbackSpeed: 20
+  stunKnockbackAngle: {x: 1, y: 2}

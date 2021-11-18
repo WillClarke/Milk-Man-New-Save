@@ -1068,6 +1068,7 @@ MonoBehaviour:
   inputTimer: 0.2
   attack1Radius: 0.8
   attack1Damage: 10
+  stunDamageAmount: 1
   attack1HitBoxPos: {fileID: 1682653820}
   whatIsDamageable:
     serializedVersion: 2
@@ -50219,6 +50220,36 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &346904047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 346904048}
+  m_Layer: 7
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &346904048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346904047}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.976, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2144100441}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &471600812
 GameObject:
   m_ObjectHideFlags: 3
@@ -50306,6 +50337,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &493150652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 493150653}
+  m_Layer: 7
+  m_Name: MeleeAttackPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &493150653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493150652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.25, y: -0.22, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2144100441}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -64068,7 +64129,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403334447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.142, y: -0.479, z: 0}
+  m_LocalPosition: {x: 0.43, y: -0.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2144100441}
@@ -64182,11 +64243,15 @@ MonoBehaviour:
   wallCheck: {fileID: 1262735234}
   ledgeCheck: {fileID: 532408198}
   playerCheck: {fileID: 1403334448}
+  groundCheck: {fileID: 346904048}
   idleStateData: {fileID: 11400000, guid: c99d23dd2578abd459d603d04ede3f6e, type: 2}
   moveStateData: {fileID: 11400000, guid: 04bd5489c2fdf1049ab079150fd8711f, type: 2}
   playerDetectedData: {fileID: 11400000, guid: d830c3f0c9832fe4481406b270334c48, type: 2}
   chargeStateData: {fileID: 11400000, guid: 10f35ee60fe20174ca6b3cc226d3ee0e, type: 2}
   lookForPlayerStateData: {fileID: 11400000, guid: 931b1aedb7a429b408402a88c4d68985, type: 2}
+  meleeAttackStateDate: {fileID: 11400000, guid: db6051ffdcaae3841b76c1cca090900a, type: 2}
+  stunStateData: {fileID: 11400000, guid: 94b91fc0c6a713746aa04764cf59b59d, type: 2}
+  meleeAttackPosition: {fileID: 493150653}
 --- !u!1 &1841679223
 GameObject:
   m_ObjectHideFlags: 0
@@ -64274,6 +64339,7 @@ GameObject:
   - component: {fileID: 2144100444}
   - component: {fileID: 2144100443}
   - component: {fileID: 2144100442}
+  - component: {fileID: 2144100446}
   m_Layer: 7
   m_Name: Alive
   m_TagString: Enemy
@@ -64296,6 +64362,8 @@ Transform:
   - {fileID: 1262735234}
   - {fileID: 2023326519}
   - {fileID: 1403334448}
+  - {fileID: 493150653}
+  - {fileID: 346904048}
   m_Father: {fileID: 1800200355}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -64416,3 +64484,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2144100446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144100440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84258778327d7214d89d1a75c6e40d35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackState: {fileID: 0}
