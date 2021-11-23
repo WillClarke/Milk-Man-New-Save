@@ -63930,7 +63930,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -64020,6 +64020,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99057c618cc257d45bfa1e37d6e63870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sounds:
+  - name: playerJump
+    clip: {fileID: 8300000, guid: 9b45b04af46fb784e9a94921a09c5a56, type: 3}
+    volume: 0.504
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 4e34a837def5f7449912922d2e79a4a9, type: 3}
+    volume: 0.079
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: playerWalking
+    clip: {fileID: 8300000, guid: 46e72ac759d9e5345a5b7aa3aac75a1c, type: 3}
+    volume: 0.353
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: playerAttacking
+    clip: {fileID: 8300000, guid: 52874a68cf59891429625ec54476c449, type: 3}
+    volume: 0.187
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!4 &1085673189
 Transform:
   m_ObjectHideFlags: 0
@@ -64028,7 +64053,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1085673186}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 10.76, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
