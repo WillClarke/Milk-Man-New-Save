@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &100750327
 Transform:
   m_ObjectHideFlags: 0
@@ -64041,6 +64041,12 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: playerAttacking
     clip: {fileID: 8300000, guid: 52874a68cf59891429625ec54476c449, type: 3}
+    volume: 0.187
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: enemyAttacking
+    clip: {fileID: 8300000, guid: 7511751fedca441479c6984c99934e64, type: 3}
     volume: 0.187
     pitch: 1
     loop: 0
