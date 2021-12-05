@@ -63961,7 +63961,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 378636179443891211, guid: 7c1d13e48d435004aaad8278006ec149, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7c1d13e48d435004aaad8278006ec149, type: 3}
 --- !u!1001 &1556934785400019273
 PrefabInstance:
@@ -64018,6 +64019,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyM_1
       objectReference: {fileID: 0}
+    - target: {fileID: 6513586084439956116, guid: 5a0451ebfe5fdc241ac0838f89a54448, type: 3}
+      propertyPath: idleStateData
+      value: 
+      objectReference: {fileID: 11400000, guid: c99d23dd2578abd459d603d04ede3f6e, type: 2}
+    - target: {fileID: 6513586084439956116, guid: 5a0451ebfe5fdc241ac0838f89a54448, type: 3}
+      propertyPath: playerDetectedData
+      value: 
+      objectReference: {fileID: 11400000, guid: d830c3f0c9832fe4481406b270334c48, type: 2}
+    - target: {fileID: 6513586084439956116, guid: 5a0451ebfe5fdc241ac0838f89a54448, type: 3}
+      propertyPath: lookForPlayerStateData
+      value: 
+      objectReference: {fileID: 11400000, guid: 931b1aedb7a429b408402a88c4d68985, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a0451ebfe5fdc241ac0838f89a54448, type: 3}
 --- !u!1001 &5737558289463046236

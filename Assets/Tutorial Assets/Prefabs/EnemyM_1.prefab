@@ -330,7 +330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4072240193236824337}
   - component: {fileID: 4072240193236824336}
-  - component: {fileID: 4072240193236824343}
+  - component: {fileID: 6513586084439956116}
   m_Layer: 7
   m_Name: EnemyM_1
   m_TagString: Enemy
@@ -404,7 +404,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4072240193236824343
+--- !u!114 &6513586084439956116
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -413,7 +413,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4072240193236824339}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f17f899c487e1794dbf88d75922cc688, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d6c1bcc9e5ae9e4a9bfb0547106671a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   entityData: {fileID: 11400000, guid: 3f35c224583f06a44bacbecb0d98bbce, type: 2}
@@ -424,8 +424,8 @@ MonoBehaviour:
   idleStateData: {fileID: 11400000, guid: c99d23dd2578abd459d603d04ede3f6e, type: 2}
   moveStateData: {fileID: 11400000, guid: 04bd5489c2fdf1049ab079150fd8711f, type: 2}
   playerDetectedData: {fileID: 11400000, guid: d830c3f0c9832fe4481406b270334c48, type: 2}
-  chargeStateData: {fileID: 11400000, guid: 10f35ee60fe20174ca6b3cc226d3ee0e, type: 2}
-  lookForPlayerStateData: {fileID: 11400000, guid: 931b1aedb7a429b408402a88c4d68985, type: 2}
+  chargeStateData: {fileID: 11400000, guid: 6cefada94f8598c4e93b166110c42cba, type: 2}
+  lookForPlayerStateData: {fileID: 11400000, guid: 63778cc96757d7247bb74b66f7e08a48, type: 2}
   meleeAttackStateDate: {fileID: 11400000, guid: db6051ffdcaae3841b76c1cca090900a, type: 2}
   stunStateData: {fileID: 11400000, guid: 94b91fc0c6a713746aa04764cf59b59d, type: 2}
   deadStateData: {fileID: 11400000, guid: 1af26e37a232dda47844689612e8f60f, type: 2}
