@@ -3,7 +3,10 @@ guid: 1006e141937ca2c4283244cf8f34b9c6
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - healthBar: {instanceID: 0}
+  - deathChunkParticle: {fileID: 2263162827617049293, guid: 91a60b640970418409d1076d55a9130b, type: 3}
+  - deathBloodParticle: {fileID: 7750609972408251529, guid: ccecb7a77e1662f4f835f81b390a4bd1, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

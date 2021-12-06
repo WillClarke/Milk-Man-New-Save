@@ -524,7 +524,7 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - name: Theme
-    clip: {fileID: 8300000, guid: 4e34a837def5f7449912922d2e79a4a9, type: 3}
+    clip: {fileID: 8300000, guid: b38f724c566ff554aaed04dfb2ad3d7c, type: 3}
     volume: 0.079
     pitch: 1
     loop: 1
@@ -59280,8 +59280,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1509004183
-  m_SortingLayer: 2
+  m_SortingLayerID: -173929839
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 8016960355062802271, guid: 5384986c64995a84e8cd58f2d250ac51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -61794,8 +61794,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1509004183
-  m_SortingLayer: 2
+  m_SortingLayerID: -173929839
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -6981827254641702772, guid: 36b22f7779955e748851e95282b14df8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
