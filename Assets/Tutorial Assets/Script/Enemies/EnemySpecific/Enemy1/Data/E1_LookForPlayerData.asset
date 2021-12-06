@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c48b5f5f726b20044af6ba2dd044dd64, type: 3}
   m_Name: E1_LookForPlayerData
   m_EditorClassIdentifier: 
-  amountOfTurns: 2
-  timeBetweenTurns: 0.75
+  amountOfTurns: 1
+  timeBetweenTurns: 0.2
