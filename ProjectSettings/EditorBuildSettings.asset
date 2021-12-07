@@ -12,10 +12,10 @@ EditorBuildSettings:
     path: Assets/Tutorial Level.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/BossFight.unity
+    path: Assets/Scenes/Level 1/BossFight.unity
     guid: 5d9feb7fe3bc7c64da096de325395fb1
   - enabled: 1
-    path: Assets/Milk Man Test Level.unity
+    path: Assets/Scenes/Level 1/Milk Man Test Level.unity
     guid: c41bdede7bae7b04b9ad2b4892f2a669
   - enabled: 1
     path: Assets/Scenes/Level 1/Level 1_1.unity
