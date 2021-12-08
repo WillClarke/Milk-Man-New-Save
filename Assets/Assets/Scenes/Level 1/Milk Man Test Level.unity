@@ -42305,7 +42305,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: playerAttacking
     clip: {fileID: 8300000, guid: 52874a68cf59891429625ec54476c449, type: 3}
-    volume: 0.187
+    volume: 0.081
     pitch: 1
     loop: 0
     source: {fileID: 0}
