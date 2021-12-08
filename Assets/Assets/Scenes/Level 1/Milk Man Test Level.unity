@@ -41909,6 +41909,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6414832913125251450, guid: f65859f510d76bb43adfe34dbd904cf0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414832913125251450, guid: f65859f510d76bb43adfe34dbd904cf0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414832914664213540, guid: f65859f510d76bb43adfe34dbd904cf0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.94
+      objectReference: {fileID: 0}
     - target: {fileID: 6414832914700704706, guid: f65859f510d76bb43adfe34dbd904cf0, type: 3}
       propertyPath: healthBar
       value: 

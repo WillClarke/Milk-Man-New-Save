@@ -141,7 +141,7 @@ SpriteRenderer:
   m_SortingLayerID: 1118848089
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4723107735738678597, guid: 18092f3799fb1e442a39df86524bb923, type: 3}
+  m_Sprite: {fileID: -6825829999783129071, guid: a663bbd3843a2f84799105db48d61ed6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -167,6 +167,7 @@ MonoBehaviour:
   maxHealth: 50
   deathChunkParticle: {fileID: 2263162827617049293, guid: 91a60b640970418409d1076d55a9130b, type: 3}
   deathBloodParticle: {fileID: 7750609972408251529, guid: ccecb7a77e1662f4f835f81b390a4bd1, type: 3}
+  healthBar: {fileID: 0}
 --- !u!114 &5600060610270148512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,18 +268,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.19}
+  m_Offset: {x: 0.07681036, y: -0.105508745}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2}
+    oldSize: {x: 1.125, y: 1.625}
     newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6, y: 1.6}
+  m_Size: {x: 0.5590353, y: 1.4310175}
   m_EdgeRadius: 0
 --- !u!95 &5600060610270148515
 Animator:
