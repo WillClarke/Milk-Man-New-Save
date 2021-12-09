@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Assets/Scenes/Level 1/BossFight.unity
     guid: 5d9feb7fe3bc7c64da096de325395fb1
   - enabled: 1
-    path: Assets/Assets/Scenes/Level 1/Milk Man Test Level.unity
-    guid: c41bdede7bae7b04b9ad2b4892f2a669
-  - enabled: 1
     path: Assets/Assets/Scenes/Level 1/Level 1_1.unity
     guid: e268f20443da4884185e0b855b49c469
   - enabled: 1
@@ -27,12 +24,27 @@ EditorBuildSettings:
     path: Assets/Assets/Scenes/Level 1/Level1_3.unity
     guid: ebb178a1c496c3f41906c0a60c2a5a78
   - enabled: 1
+    path: Assets/Assets/Scenes/Level 1/Level1_4.unity
+    guid: c41bdede7bae7b04b9ad2b4892f2a669
+  - enabled: 1
     path: Assets/Assets/Scenes/Options.unity
     guid: 645c8de8a1e5ec848a9f0a083e4773db
   - enabled: 1
-    path: Assets/Assets/Scenes/Level 1/GameOver.unity
+    path: Assets/Assets/Scenes/Level 1/GameOver_Boss.unity
     guid: f5e100b456665854d94a781a263a1e89
   - enabled: 1
     path: Assets/Assets/Scenes/Exit.unity
     guid: 78679acbbb3dd9c46b7b5dd65a2473a5
+  - enabled: 1
+    path: Assets/Assets/Scenes/Level 1/GameOver_Level1_1.unity
+    guid: 94ed6b810ba9eaa429d0d8ad43312527
+  - enabled: 1
+    path: Assets/Assets/Scenes/Level 1/GameOver_Level1_2.unity
+    guid: 2e066aa266943e34eae476bb5642561d
+  - enabled: 1
+    path: Assets/Assets/Scenes/Level 1/GameOver_Level1_3.unity
+    guid: 019c3d28620721441bcce2492dbc9877
+  - enabled: 1
+    path: Assets/Assets/Scenes/Level 1/GameOver_Level1_4.unity
+    guid: 033c9b4f6e72e7348821d0feb89d6da2
   m_configObjects: {}
